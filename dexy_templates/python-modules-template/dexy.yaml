@@ -8,6 +8,12 @@ example2:
     - example2/*.py|idio|pycon|pyg:
         - .py
 
+### @export "example3"
+example3:
+    - example3/*.py|idio|pycon|pyg:
+        - .py
+        - .json
+
 ### @export "docs"
 .md|jinja|markdown|easyhtml:
    - docs-inputs
@@ -15,7 +21,9 @@ example2:
 docs-inputs:
     - example1
     - example2
+    - example3
     - .py|pyg
     - .py|idio
     - .yaml|pyg
     - .yaml|idio
+    - .csv|idio
