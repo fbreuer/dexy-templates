@@ -13,6 +13,7 @@ example3:
     - example3/*.py|idio|pycon|pyg:
         - .py
         - .json
+        - pycon: { add-new-files: True}
 
 ### @export "docs"
 .md|jinja|markdown|easyhtml:

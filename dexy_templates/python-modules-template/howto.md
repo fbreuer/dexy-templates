@@ -53,6 +53,12 @@ We can use the method:
 
 {{ d['example2/use-fib.py|idio|pycon|pyg']['call'] }}
 
+## Working with Files in a Subdirectory
+
+To read and write files in a subdirectory from your Python code, you have to 
+use paths relative to the location of your python script. Details are given
+in `example3/ex3.md`.
+
 ## Configuration
 
 Here is the full `dexy.yaml` file for this project:

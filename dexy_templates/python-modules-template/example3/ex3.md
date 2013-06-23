@@ -17,7 +17,8 @@ Same thing if you want to write a file to the subdirectory `example3`.
 {{ d['code.py|idio|pycon|pyg']['write'] }}
 
 For these inclusions to work you have to reference these files from 
-`dexy.yaml`:
+`dexy.yaml`. Also, to support writing files, you need to pass the parameter 
+`{ add-new-files: True }` to the filter you use to run your code.
 
 {{ d['../dexy.yaml|idio']['example3'] }}
 
